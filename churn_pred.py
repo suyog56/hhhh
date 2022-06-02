@@ -34,7 +34,7 @@ def main():
     st.write("A quick ML app to predict Churn ")
 
     #getting the input
-    AGE = st.numeric_input("Enter your AGE")
+    AGE = st.number_input("Enter your AGE")
     CUS_Month_Income = st.number_input("Enter your CUS_Month_Income")
     YEARS_WITH_US = st.number_input("Enter your YEARS_WITH_US")
     total_debit_amount = st.number_input("Enter your area_mean")
